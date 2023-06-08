@@ -1,0 +1,29 @@
+.nav-container {
+    margin: 0;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: center;
+    background-color: rgb(254, 238, 220);
+}
+
+img {
+    max-width: 350px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 20px;
+    font-size: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(56, 32, 0);
+}
+
+nav ul li a:hover {
+    color: rgb(229, 131, 3);
+    transition: 1s;
+}
