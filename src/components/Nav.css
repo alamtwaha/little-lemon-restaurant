@@ -5,7 +5,8 @@
     justify-content: space-between;
     /* align-content: center; */
     align-items: center;
-    background-color: rgb(254, 238, 220);
+    /* background-color: rgb(254, 238, 220);*/
+    background-color: #FFF7E4;
 }
 
 img {

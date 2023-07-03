@@ -1,0 +1,48 @@
+.header {
+    /* max-width: 1160px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    padding: 50px 50px;
+    background-color: #FFF7E4;
+}
+
+.header .header-text {
+    max-width: 550px;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.header .header-text h1 {
+    font-family: Kaisei Decol;
+    font-size: 3.5em;
+    line-height: 1.1em;
+}
+
+.header .header-text p {
+    font-family: Poppins;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+
+.header .header-img img {
+    max-width: 520px;
+}
+
+
+.header .header-text button {
+    font-family: Poppins;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #413000;
+    background-color: #FABA14;
+    border: none;
+    padding: 15px 30px;
+
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
