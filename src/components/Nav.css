@@ -1,22 +1,33 @@
 .nav-container {
-    margin: 0;
-    padding: 30px 40px;
-    display: flex;
-    justify-content: space-between;
     /* align-content: center; */
-    align-items: center;
     /* background-color: rgb(254, 238, 220);*/
     background-color: #FFF7E4;
+}
+
+div .nav-content {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 img {
     max-width: 350px;
 }
 
+/* nav ul {
+ align-content: end;
+} */
+
 nav ul li {
     display: inline;
     padding: 0px 20px;
-    font-size: 1.5em;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 nav ul li a {
