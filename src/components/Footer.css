@@ -1,0 +1,41 @@
+.Footer {
+    background-color: #302200;
+    padding: 100px 50px;
+    color: #aca188;
+}
+
+.Footer-Container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1154px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: antiquewhite; */
+}
+
+.Footer-Container p{
+    max-width: 320px;
+    font-family: poppins;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.Footer-Container .Footer-Logo .logo {
+    cursor: pointer;
+}
+
+.Footer-Link ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    letter-spacing: .3px;
+    cursor: pointer;
+}
+
+.Footer-Contact P {
+    padding-bottom: 0px;
+}
+.Footer-Contact h2 {
+    font-weight: 500;
+}
