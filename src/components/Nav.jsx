@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
 import './Nav.css';
 
@@ -6,16 +7,14 @@ const Nav = () => {
       <>
        <div className="nav-container">
           <div className="nav-content">
-            <img src={logo} alt="Little Lemon Restaurant Logo"/>
+            <Link to='/' ><img src={logo} alt="Little Lemon Restaurant Logo"/></Link>
             <nav>
-                <ul>
-                  <li><a href="/home">Home</a></li>
-                  <li><a href="/about">About</a></li>
-                  <li><a href="/menu">Menu</a></li>
-                  <li><a href="/reservation">Reservation</a></li>
-                  <li><a href="/orderOnline">Order Online</a></li>
-                  <li><a href="/login">Login</a></li>
-                </ul>
+              <Link to='/' className='nav-item'>Home</Link>
+              <Link to='/about' className='nav-item'>About</Link>
+              <Link to='/menu' className='nav-item'>Menu</Link>
+              <Link to='/reservation' className='nav-item'>Reservation</Link>
+              <Link to='/order-online' className='nav-item'>Order Online</Link>
+              <Link to='/login' className='nav-item'>Login</Link>
             </nav>
           </div>
         </div>
