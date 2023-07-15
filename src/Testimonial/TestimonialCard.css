@@ -1,28 +1,21 @@
 .Testimonial {
-    max-width: 276px;
+    min-width: 276px;
     margin: 10px;
     text-align: center;
-    /* padding: 20px; */
 }
+
 
 .Testimonial-content {
     padding: 20px;
-    /* background-color: rgba(255, 255, 255, 1); */
     background-color: #fdebc2;
     border-radius: 20px;
     transition: 1s;
-    /* align-content: center; */
-    /* max-width: 374px; */
+    max-height: max-content;
 }
 .Testimonial-content:hover {
-    /* background-color: #fdebc2; */
     background-color: rgba(255, 255, 255, 1);
     transition: 1s;
-    /* align-content: center; */
-    /* max-width: 374px; */
 }
-
-
 
 
 .img {
@@ -40,7 +33,6 @@
     font-weight: 600;
     margin-top: 50px;
 }
-
 
 
 .Testimonial-paragraph {

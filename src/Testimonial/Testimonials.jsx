@@ -2,6 +2,7 @@
 // import Card from "../card/Card"
 import "./Testimonials.css"
 import TestimonialCard from "./TestimonialCard"
+import { TESTIMONIAL_DATA } from "./TestimonialData"
 
 const Testimonials = () => {
     return (
@@ -10,10 +11,15 @@ const Testimonials = () => {
           <div className="Testimonials-Heading">
               <h1> Testimonials</h1>
             <div className="Testimonials-wraper">
-              <TestimonialCard />
-              <TestimonialCard />
-              <TestimonialCard />
-              <TestimonialCard />
+              {
+                TESTIMONIAL_DATA.map((Testimonial) => (
+                  <TestimonialCard key={Testimonial.id} Testimonial={Testimonial} />
+                ))
+              }
+              {/* <TestimonialCard /> */}
+              {/* <TestimonialCard /> */}
+              {/* <TestimonialCard /> */}
+              {/* <TestimonialCard /> */}
               {/* <Card /> */}
             </div>
           </div>

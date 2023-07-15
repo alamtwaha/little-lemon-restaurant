@@ -6,8 +6,6 @@ const Card = ({Menu}) => {
     return (
         <>
             <div className="card">
-                {/* <img src="Grilled-Salmon1.jpg" alt="" /> */}
-                {/* <h1>Card</h1> */}
                 <img src={imageUrl} alt={`${name}`} />
                 <div className="card-content">
                     <h2 className="card-title">{name}</h2>

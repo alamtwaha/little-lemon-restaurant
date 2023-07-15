@@ -1,17 +1,18 @@
 
 import "./TestimonialCard.css"
 
-const TestimonialCard = () => {
+const TestimonialCard = ({Testimonial}) => {
+    const { name, imageUrl, feedback, ratingImg } = Testimonial;
     return (
         <>
             <div className="Testimonial">
-                <img className="img" src="../TestimonialCard-img/img-1.png" alt="" />
-                <div className="Testimonial-content">
-                    <h2 className="Testimonial-title">David B.</h2>
-                    <img  src="../TestimonialCard-img/5star.svg" alt="" />
-                    <p className="Testimonial-paragraph">I loved it, as did the wife. After a few 
-                    times I tried adding just a small sprinkle of turbinado sugar to the fish 
-                    before the oil, salt, and pepper. Actually very good, too.</p>
+                <div className="Testimonial-Container">
+                    <img className="img" src={imageUrl} alt={`{name}`} />
+                    <div className="Testimonial-content">
+                        <h2 className="Testimonial-title">{name}</h2>
+                        <img  src={ratingImg} alt="Rating" />
+                        <p className="Testimonial-paragraph">{feedback}</p>
+                    </div>
                 </div>
 
             </div>
