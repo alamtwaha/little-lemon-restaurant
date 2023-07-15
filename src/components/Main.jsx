@@ -1,6 +1,7 @@
 
 import Card from "../card/Card"
-import "./Main.css"
+import "./Main.css";
+import { MENU_DATA } from '../MenuItemData.jsx';
 
 const Main = () => {
     return (
@@ -8,9 +9,14 @@ const Main = () => {
       <div className="card-section">
           <h1> Special Items</h1>
           <div className="Card-wraper">
-              <Card />
-              <Card />
-              <Card />
+            {
+              MENU_DATA.map((Menu) => (
+                <Card key={Menu.id}  Menu = {Menu} />
+              ))
+            }
+              {/* <Card /> */}
+              {/* <Card /> */}
+              {/* <Card /> */}
           </div>
       </div>
       </>

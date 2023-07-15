@@ -33,6 +33,10 @@ const Footer = () => {
 
             {/* <h1> Navigation</h1> */}
           </div>
+          <div className="Copywrite">
+            <p> @2023 Little Lemon Restaurant</p>
+            <p>Design and Developed By Mahbub Alam</p>
+          </div>
         </div>
       </>
     )

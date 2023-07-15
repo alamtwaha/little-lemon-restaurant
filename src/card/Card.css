@@ -42,10 +42,10 @@
     border-radius: 9px;
     background-color: #e9d5a880;
     cursor: pointer;
-    transition: 2s;
+    transition: 0s;
 }
 
 .card-btn:hover {
     background-color: #ddb04750;
-    transition: 2s;
+    transition: 0s;
 }

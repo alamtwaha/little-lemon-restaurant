@@ -1,10 +1,10 @@
+
 .Card-wraper {
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .card-section {
-    /* max-width: 1162px; */
     padding: 100px 50px;
     max-width: 1162px;
     margin-left: auto;
